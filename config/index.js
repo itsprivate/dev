@@ -1,11 +1,11 @@
 const siteMetadata = {
-  siteUrl: "https://news.buzzing.cc",
+  siteUrl: "https://dev.buzzing.cc",
   author: `Buzzing.cc`,
   locale: "zh",
-  title: "谷歌全球新闻头条",
-  shortTitle: "全球头条",
-  description: "用中文浏览谷歌全球新闻(西方媒体)头条",
-  keywords: ["buzzing", "西方媒体", "国外新闻", "世界新闻", "突发新闻"],
+  title: "Dev.to 热门",
+  shortTitle: "Dev热门",
+  description: "用中文浏览Dev.to热门技术文章",
+  keywords: ["buzzing", "dev.to", "程序员", "技术", "技术社区"],
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
   menuLinks: [
@@ -13,11 +13,11 @@ const siteMetadata = {
     //   name: "每周精选",
     //   url: "/issues",
     // },
-    {
-      name: "RSS",
-      url: "/rss.xml",
-      prefetch: false,
-    },
+    // {
+    //   name: "RSS",
+    //   url: "/rss.xml",
+    //   prefetch: false,
+    // },
   ],
   subscriptions: [
     {
@@ -38,8 +38,8 @@ const siteMetadata = {
   ],
   social: [
     {
-      name: `Google News`,
-      url: `https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB`,
+      name: `Dev.to`,
+      url: `https://dev.to`,
       external: true,
     },
     {
@@ -51,38 +51,38 @@ const siteMetadata = {
   localize: [
     {
       locale: "en",
-      title: `Buzzing on World News`,
-      shortTitle: "BuzzNews",
-      description: `See what's buzzing on Google World News Headline in your native language`,
-      keywords: ["buzzing", "Breaking News"],
+      title: `Buzzing on Dev.to`,
+      shortTitle: "BuzzDev",
+      description: `See what's buzzing on Dev.to in your native language`,
+      keywords: ["buzzing", "dev","dev.to"],
       menuLinks: [
         // {
         //   name: "Weekly Selection",
         //   url: "/en/issues",
         // },
-        {
-          name: "RSS",
-          url: "/en/rss.xml",
-          prefetch: false,
-        },
+        // {
+        //   name: "RSS",
+        //   url: "/en/rss.xml",
+        //   prefetch: false,
+        // },
       ],
     },
     {
       locale: "zh-Hant",
-      title: "谷歌全球新聞頭條",
-      shortTitle: "全球頭條",
-      description: "用中文瀏覽谷歌全球新聞(西方媒體)頭條",
-      keywords: ["buzzing", "西方媒體", "國外新聞", "世界新聞", "突發新聞"],
+      title: "Dev.to 熱門",
+      shortTitle: "Dev熱門",
+      description: "用中文瀏覽Dev.to熱門技術文章",
+      keywords: ["buzzing", "dev.to", "程序員", "技術", "技術社區"],
       menuLinks: [
         // {
         // name: "每週精選",
         // url: "/zh-Hant/issues",
         // },
-        {
-          name: "RSS",
-          url: "/zh-Hant/rss.xml",
-          prefetch: false,
-        },
+        // {
+        //   name: "RSS",
+        //   url: "/zh-Hant/rss.xml",
+        //   prefetch: false,
+        // },
       ],
     },
   ],
