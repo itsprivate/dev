@@ -85,6 +85,24 @@ const siteMetadata = {
         // },
       ],
     },
+    {
+      locale: "ja",
+      title: "Dev.to 人気の記事",
+      shortTitle: "Dev人気",
+      description: "人気のDev.to技術記事を日本語で閲覧",
+      keywords: ["buzzing", "dev.to", "プログラマー", "技術", "技術コミュニティ"],
+      menuLinks: [
+        // {
+        // name: "每週精選",
+        // url: "/zh-Hant/issues",
+        // },
+        // {
+        //   name: "RSS",
+        //   url: "/zh-Hant/rss.xml",
+        //   prefetch: false,
+        // },
+      ],
+    }
   ],
 };
 
