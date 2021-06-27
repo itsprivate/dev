@@ -8,7 +8,7 @@ const siteMetadata = {
   keywords: ["buzzing", "dev.to", "程序员", "技术", "技术社区"],
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
-  iconUrl: "https://news.buzzing.cc/avatar.png",
+  iconUrl: "https://dev.buzzing.cc/avatar.png",
   menuLinks: [
     // {
     //   name: "每周精选",
